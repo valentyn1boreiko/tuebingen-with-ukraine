@@ -19,10 +19,11 @@
       <!--Main Navigation-->
   <header>
     <style>
-       #itemize1 ul, #itemize1 li {
+       .itemize ul, .itemize li {
     text-align: left;
 }
 
+       html * {font-family: Arial !important; }
       /* Carousel styling */
       #introCarousel,
       .carousel-inner,
@@ -32,25 +33,19 @@
       }
 
       .carousel-item:nth-child(1) {
-        background-image: url(img/ukrainge-flag-bg.jpg);
+        background-image: url(img/ukraine_flyer.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
       }
 
       .carousel-item:nth-child(2) {
-        background-image: url(img/ukrainge-flag-bg.jpg);
+        background-image: url(img/ukraine_flyer.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
       }
 
-      .carousel-item:nth-child(3) {
-        background-image: url(img/ukrainge-flag-bg.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
 
       /* Height for devices larger than 576px */
       @media (min-width: 992px) {
@@ -79,7 +74,7 @@
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-white text-center">
-              <h1>
+              <h1 style="font-size:4vw;">
                 We stand with Ukraine.
               </h1>
               </div>
@@ -94,16 +89,11 @@
               <div class="text-white text-center">
                   <div class="container">
   
-                    <div class="row align-items-start">
-                      <div class="col">
-                <h1 id="itemize1"> WE STAND WITH UKRAINE
-                              </h1>
-                           </div>
-                          </div>
-                          
+
                     <div class="row">
       <div class="col align-self-center">
-   <h2> Was geschieht?
+          <h1 style="font-size:4vw;">Was geschieht?</h1>
+          <h2 class="itemize" style="font-size:2vw;">
     <ul>
 <li>Vor 9 Monaten sind <a href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine">200.000 russische Truppen</a> in der Ukraine einmarschiert.
 <li><a href="https://www.csis.org/analysis/update-forced-displacement-around-ukraine">14 Millionen Menschen</a> sind seit Kriegsbeginn geflüchtet.</li>
@@ -122,7 +112,6 @@
   </ul>
 </li>
 </ul>
-<ul>
 
                </h2>
    </div>
@@ -132,7 +121,8 @@
 
        <div class="row align-items-start">
        <div class="col">
- <h2 id="itemize1"> Was können wir tun?
+           <h1 style="font-size:4vw;">Was können wir tun?</h1>
+            <h2 class="itemize" style="font-size:2vw;">
   <ul>
     <li>Ukraine politisch unterstützen: Wir setzen uns für <a href="https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514">humanitäre Hilfen und Waffenlieferungen</a> ein.</li>
       <li>Ukrainischen Geflüchteten in Deutschland positiv begegnen.</li>
@@ -168,6 +158,8 @@
       </a>
     </div>
     <!-- Carousel wrapper -->
+    </div>
+
   </header>
   <!--Main Navigation-->
 

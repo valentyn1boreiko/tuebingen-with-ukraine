@@ -33,19 +33,39 @@
         height: 100vh;
       }
 
-      .carousel-item:nth-child(1) {
-        background-image: url(img/ukraine_flyer.svg);
+    
+       @media (max-width: 900px){
+    /* applies to mobiles in portrait mode */
+     .carousel-item:nth-child(1) {
+        background-image: url(img/ukraine_flyer_mobile.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+      }
+          .carousel-item:nth-child(2) {
+        background-image: url(img/ukraine_flyer_mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
       }
 
-      .carousel-item:nth-child(2) {
+          @media (min-width: 900px){
+    /* applies to mobiles in portrait mode */
+     .carousel-item:nth-child(1) {
         background-image: url(img/ukraine_flyer.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
       }
+          .carousel-item:nth-child(2) {
+        background-image: url(img/ukraine_flyer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      }
+
 
 
       /* Height for devices larger than 576px */

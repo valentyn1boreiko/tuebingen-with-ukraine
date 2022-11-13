@@ -35,7 +35,7 @@
       }
 
 
-       @media (max-width: 900px){
+       @media handheld and (orientation: portrait){
     /* applies to mobiles in portrait mode */
 
            h1 {font-size:3.4vh;}
@@ -64,6 +64,88 @@ transform: translateX(-50%);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+         width: 100vw;
+height: 100vh;
+      }
+          .carousel-item:nth-child(2) {
+        background-image: url(img/ukraine_flyer_mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+              width: 100vw;
+height: 100vh;
+      }
+      }
+
+        @media handheld and (orientation: landscape){
+    /* applies to mobiles in portrait mode */
+
+           h1 {font-size:3.4vh;}
+           h2 {font-size:1.7vh;}
+
+          /*  #was_geschieht {
+  position: fixed;
+  bottom: 50%;
+                width: 80%;
+               left: 50%;
+transform: translateX(-50%);
+  z-index: 1000;
+}
+
+               #was_koennen_wir {
+  position: fixed;
+  top: 50%;
+                   width: 80%;
+                   left: 50%;
+transform: translateX(-50%);
+  z-index: 1000;
+} */
+
+     .carousel-item:nth-child(1) {
+        background-image: url(img/ukraine_flyer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+         width: 100vw;
+height: 100vh;
+      }
+          .carousel-item:nth-child(2) {
+        background-image: url(img/ukraine_flyer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+              width: 100vw;
+height: 100vh;
+      }
+      }
+
+        @media screen and (max-width: 900px){
+    /* applies to mobiles in portrait mode */
+              h1 {font-size:4vw;}
+           h2 {font-size:2vw;}
+                /*   #was_geschieht {
+  position: fixed;
+  bottom: 50%;
+                       width: 80%;
+               left: 50%;
+transform: translateX(-50%);
+  z-index: 1000;
+}
+
+               #was_koennen_wir {
+  position: fixed;
+  top: 50%;
+                   width: 80%;
+                   left: 50%;
+transform: translateX(-50%);
+  z-index: 1000;
+}*/
+
+     .carousel-item:nth-child(1) {
+        background-image: url(img/ukraine_flyer_mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
       }
           .carousel-item:nth-child(2) {
         background-image: url(img/ukraine_flyer_mobile.svg);
@@ -73,7 +155,7 @@ transform: translateX(-50%);
       }
       }
 
-          @media (min-width: 900px){
+          @media screen and (min-width: 900px){
     /* applies to mobiles in portrait mode */
               h1 {font-size:4vw;}
            h2 {font-size:2vw;}
